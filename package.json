@@ -1,6 +1,6 @@
 {
   "name": "limbo-common-node",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "通用NodeJS库",
   "main": "index.js",
   "directories": {
