@@ -1,0 +1,28 @@
+{
+  "name": "limbo-common-node",
+  "version": "0.1.0",
+  "description": "通用NodeJS库",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "patch": "yarn version --patch && git push origin master && git push origin --tags && npm publish",
+    "minor": "yarn version --minor && git push origin master && git push origin --tags && npm publish",
+    "major": "yarn version --major && git push origin master && git push origin --tags && npm publish"
+  },
+  "keywords": [
+    "JS"
+  ],
+  "author": "limbo <yykaue@qq.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yykaue/limbo-common-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yykaue/limbo-common-node/issues"
+  },
+  "homepage": "https://github.com/yykaue/limbo-common-node#readme"
+}
